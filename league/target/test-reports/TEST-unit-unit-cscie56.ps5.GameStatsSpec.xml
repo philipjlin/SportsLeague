@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.GameStatsSpec" skipped="0" tests="3" time="0.291" timestamp="2016-04-23T06:22:30">
+  <properties />
+  <testcase classname="league.GameStatsSpec" name="test statistics not negative" time="0.179" />
+  <testcase classname="league.GameStatsSpec" name="test shotsAttempted not less than shotsMade" time="0.052" />
+  <testcase classname="league.GameStatsSpec" name="test threesAttempted not less than threesMade" time="0.048" />
+  <system-out><![CDATA[--Output from test statistics not negative--
+--Output from test shotsAttempted not less than shotsMade--
+--Output from test threesAttempted not less than threesMade--
+]]></system-out>
+  <system-err><![CDATA[--Output from test statistics not negative--
+--Output from test shotsAttempted not less than shotsMade--
+--Output from test threesAttempted not less than threesMade--
+]]></system-err>
+</testsuite>

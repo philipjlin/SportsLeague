@@ -1,0 +1,5 @@
+--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.GameStatsControllerSpec" skipped="0" tests="4" time="0.902" timestamp="2016-04-23T06:22:29">
+  <properties />
+  <testcase classname="league.GameStatsControllerSpec" name="Test the index action returns the correct model" time="0.572" />
+  <testcase classname="league.GameStatsControllerSpec" name="Test the create action returns the correct model" time="0.113" />
+  <testcase classname="league.GameStatsControllerSpec" name="Test that the show action returns the correct model" time="0.118" />
+  <testcase classname="league.GameStatsControllerSpec" name="Test that the edit action returns the correct model" time="0.079" />
+  <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+  <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+</testsuite>

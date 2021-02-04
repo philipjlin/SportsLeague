@@ -1,0 +1,16 @@
+Testsuite: league.PersonControllerSpec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.566 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 0.342 sec
+Testcase: Test the create action returns the correct model took 0.099 sec
+Testcase: Test that the edit action returns the correct model took 0.111 sec

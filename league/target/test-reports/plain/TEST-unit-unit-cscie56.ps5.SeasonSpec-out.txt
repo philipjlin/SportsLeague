@@ -1,0 +1,4 @@
+--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--

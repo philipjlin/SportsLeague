@@ -1,0 +1,10 @@
+Testsuite: league.GameServiceIntegrationSpec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.725 sec
+------------- Standard Output ---------------
+--Output from test simulateGame populates schedule with game--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test simulateGame populates schedule with game--
+------------- ---------------- ---------------
+
+Testcase: test simulateGame populates schedule with game took 0.717 sec

@@ -1,0 +1,2 @@
+--Output from test simulateSeason returns resultsMap with results for each team--
+league.Season : 4

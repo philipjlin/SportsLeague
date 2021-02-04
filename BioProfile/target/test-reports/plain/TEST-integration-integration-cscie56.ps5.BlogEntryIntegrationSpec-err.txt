@@ -1,0 +1,4 @@
+--Output from test comment added to existing blog entry--
+--Output from test blog entry saved--
+--Output from test blog entry published--
+--Output from test reply posted to comment--

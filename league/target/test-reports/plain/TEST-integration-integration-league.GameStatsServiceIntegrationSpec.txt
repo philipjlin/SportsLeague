@@ -1,0 +1,10 @@
+Testsuite: league.GameStatsServiceIntegrationSpec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec
+------------- Standard Output ---------------
+--Output from test getPlayerMaps method fills stat maps--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test getPlayerMaps method fills stat maps--
+------------- ---------------- ---------------
+
+Testcase: test getPlayerMaps method fills stat maps took 0.192 sec

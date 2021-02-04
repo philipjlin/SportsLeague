@@ -1,0 +1,19 @@
+Testsuite: league.BlogEntryIntegrationSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.977 sec
+------------- Standard Output ---------------
+--Output from test comment added to existing blog entry--
+--Output from test blog entry saved--
+--Output from test blog entry published--
+--Output from test reply posted to comment--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test comment added to existing blog entry--
+--Output from test blog entry saved--
+--Output from test blog entry published--
+--Output from test reply posted to comment--
+------------- ---------------- ---------------
+
+Testcase: test comment added to existing blog entry took 3.785 sec
+Testcase: test blog entry saved took 4.255 sec
+Testcase: test blog entry published took 0.369 sec
+Testcase: test reply posted to comment took 0.187 sec

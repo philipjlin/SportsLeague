@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.TeamSpec" skipped="0" tests="2" time="0.178" timestamp="2016-04-23T06:22:34">
+  <properties />
+  <testcase classname="league.TeamSpec" name="test teamName not null" time="0.133" />
+  <testcase classname="league.TeamSpec" name="test location not null" time="0.037" />
+  <system-out><![CDATA[--Output from test teamName not null--
+--Output from test location not null--
+]]></system-out>
+  <system-err><![CDATA[--Output from test teamName not null--
+--Output from test location not null--
+]]></system-err>
+</testsuite>

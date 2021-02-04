@@ -1,0 +1,3 @@
+--Output from test statistics not negative--
+--Output from test shotsAttempted not less than shotsMade--
+--Output from test threesAttempted not less than threesMade--

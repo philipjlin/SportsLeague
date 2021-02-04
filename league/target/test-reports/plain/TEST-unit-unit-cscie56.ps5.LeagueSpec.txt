@@ -1,0 +1,13 @@
+Testsuite: league.LeagueSpec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.243 sec
+------------- Standard Output ---------------
+--Output from test leagueName not null--
+--Output from test leagueSize greater than 1--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test leagueName not null--
+--Output from test leagueSize greater than 1--
+------------- ---------------- ---------------
+
+Testcase: test leagueName not null took 0.193 sec
+Testcase: test leagueSize greater than 1 took 0.039 sec

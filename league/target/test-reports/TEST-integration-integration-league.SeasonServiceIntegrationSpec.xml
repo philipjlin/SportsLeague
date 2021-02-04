@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.SeasonServiceIntegrationSpec" skipped="0" tests="1" time="0.741" timestamp="2016-04-23T06:23:50">
+  <properties />
+  <testcase classname="league.SeasonServiceIntegrationSpec" name="test simulateSeason returns resultsMap with results for each team" time="0.74" />
+  <system-out><![CDATA[--Output from test simulateSeason returns resultsMap with results for each team--
+league.Season : 4]]></system-out>
+  <system-err><![CDATA[--Output from test simulateSeason returns resultsMap with results for each team--
+]]></system-err>
+</testsuite>

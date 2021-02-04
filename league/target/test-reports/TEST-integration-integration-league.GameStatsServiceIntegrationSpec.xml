@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.GameStatsServiceIntegrationSpec" skipped="0" tests="1" time="0.202" timestamp="2016-04-23T06:23:50">
+  <properties />
+  <testcase classname="league.GameStatsServiceIntegrationSpec" name="test getPlayerMaps method fills stat maps" time="0.192" />
+  <system-out><![CDATA[--Output from test getPlayerMaps method fills stat maps--
+]]></system-out>
+  <system-err><![CDATA[--Output from test getPlayerMaps method fills stat maps--
+]]></system-err>
+</testsuite>

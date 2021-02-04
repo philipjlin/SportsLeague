@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.GameSpec" skipped="0" tests="8" time="0.803" timestamp="2016-04-23T06:22:29">
+  <properties />
+  <testcase classname="league.GameSpec" name="test homeTeam not null" time="0.249" />
+  <testcase classname="league.GameSpec" name="test awayTeam not null" time="0.102" />
+  <testcase classname="league.GameSpec" name="test date valid" time="0.089" />
+  <testcase classname="league.GameSpec" name="test date invalid" time="0.082" />
+  <testcase classname="league.GameSpec" name="test time not null" time="0.078" />
+  <testcase classname="league.GameSpec" name="test location not null" time="0.056" />
+  <testcase classname="league.GameSpec" name="test homePoints not negative" time="0.064" />
+  <testcase classname="league.GameSpec" name="test awayPoints not negative" time="0.067" />
+  <system-out><![CDATA[--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--
+]]></system-out>
+  <system-err><![CDATA[--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--
+]]></system-err>
+</testsuite>

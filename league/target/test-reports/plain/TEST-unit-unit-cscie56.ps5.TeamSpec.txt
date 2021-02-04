@@ -1,0 +1,13 @@
+Testsuite: league.TeamSpec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 sec
+------------- Standard Output ---------------
+--Output from test teamName not null--
+--Output from test location not null--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test teamName not null--
+--Output from test location not null--
+------------- ---------------- ---------------
+
+Testcase: test teamName not null took 0.133 sec
+Testcase: test location not null took 0.037 sec

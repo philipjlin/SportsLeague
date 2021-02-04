@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="0" name="BlogEntryIntegrationSpec" package="league" skipped="0" tests="4" time="8.977" timestamp="2016-04-23T06:21:16">
+      <properties />
+
+      <testcase classname="league.BlogEntryIntegrationSpec" name="test comment added to existing blog entry" time="3.784" />
+
+      <testcase classname="league.BlogEntryIntegrationSpec" name="test blog entry saved" time="4.255" />
+
+      <testcase classname="league.BlogEntryIntegrationSpec" name="test blog entry published" time="0.369" />
+
+      <testcase classname="league.BlogEntryIntegrationSpec" name="test reply posted to comment" time="0.187" />
+
+      <system-out><![CDATA[--Output from test comment added to existing blog entry--
+--Output from test blog entry saved--
+--Output from test blog entry published--
+--Output from test reply posted to comment--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test comment added to existing blog entry--
+--Output from test blog entry saved--
+--Output from test blog entry published--
+--Output from test reply posted to comment--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Testsuite: league.SeasonServiceIntegrationSpec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 sec
+------------- Standard Output ---------------
+--Output from test simulateSeason returns resultsMap with results for each team--
+league.Season : 4------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test simulateSeason returns resultsMap with results for each team--
+------------- ---------------- ---------------
+
+Testcase: test simulateSeason returns resultsMap with results for each team took 0.74 sec

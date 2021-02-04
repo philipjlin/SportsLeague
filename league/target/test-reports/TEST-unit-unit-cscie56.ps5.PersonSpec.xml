@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.PersonSpec" skipped="0" tests="5" time="0.305" timestamp="2016-04-23T06:22:32">
+  <properties />
+  <testcase classname="league.PersonSpec" name="test firstName not null" time="0.13" />
+  <testcase classname="league.PersonSpec" name="test lastName not null" time="0.039" />
+  <testcase classname="league.PersonSpec" name="test role not null" time="0.042" />
+  <testcase classname="league.PersonSpec" name="test height not null" time="0.047" />
+  <testcase classname="league.PersonSpec" name="test universityAttended not null" time="0.036" />
+  <system-out><![CDATA[--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--
+]]></system-out>
+  <system-err><![CDATA[--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--
+]]></system-err>
+</testsuite>

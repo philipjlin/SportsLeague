@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="0" name="GameServiceIntegrationSpec" package="league" skipped="0" tests="1" time="0.725" timestamp="2016-04-23T06:23:49">
+      <properties />
+
+      <testcase classname="league.GameServiceIntegrationSpec" name="test simulateGame populates schedule with game" time="0.717" />
+
+      <system-out><![CDATA[--Output from test simulateGame populates schedule with game--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test simulateGame populates schedule with game--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="1" name="GameStatsServiceIntegrationSpec" package="league" skipped="0" tests="1" time="0.202" timestamp="2016-04-23T06:23:50">
+      <properties />
+
+      <testcase classname="league.GameStatsServiceIntegrationSpec" name="test getPlayerMaps method fills stat maps" time="0.192" />
+
+      <system-out><![CDATA[--Output from test getPlayerMaps method fills stat maps--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test getPlayerMaps method fills stat maps--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="2" name="SeasonServiceIntegrationSpec" package="league" skipped="0" tests="1" time="0.741" timestamp="2016-04-23T06:23:50">
+      <properties />
+
+      <testcase classname="league.SeasonServiceIntegrationSpec" name="test simulateSeason returns resultsMap with results for each team" time="0.74" />
+
+      <system-out><![CDATA[--Output from test simulateSeason returns resultsMap with results for each team--
+league.Season : 4]]></system-out>
+
+      <system-err><![CDATA[--Output from test simulateSeason returns resultsMap with results for each team--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="3" name="ConferenceControllerSpec" package="league" skipped="0" tests="4" time="9.864" timestamp="2016-04-23T06:22:17">
+      <properties />
+
+      <testcase classname="league.ConferenceControllerSpec" name="Test the index action returns the correct model" time="9.113" />
+
+      <testcase classname="league.ConferenceControllerSpec" name="Test the create action returns the correct model" time="0.356" />
+
+      <testcase classname="league.ConferenceControllerSpec" name="Test that the show action returns the correct model" time="0.16" />
+
+      <testcase classname="league.ConferenceControllerSpec" name="Test that the edit action returns the correct model" time="0.112" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="4" name="ConferenceSpec" package="league" skipped="0" tests="1" time="0.528" timestamp="2016-04-23T06:22:27">
+      <properties />
+
+      <testcase classname="league.ConferenceSpec" name="test name not null" time="0.514" />
+
+      <system-out><![CDATA[--Output from test name not null--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test name not null--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="5" name="GameControllerSpec" package="league" skipped="0" tests="3" time="0.922" timestamp="2016-04-23T06:22:28">
+      <properties />
+
+      <testcase classname="league.GameControllerSpec" name="Test the index action returns the correct model" time="0.659" />
+
+      <testcase classname="league.GameControllerSpec" name="Test the create action returns the correct model" time="0.129" />
+
+      <testcase classname="league.GameControllerSpec" name="Test that the show action returns the correct model" time="0.115" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="6" name="GameSpec" package="league" skipped="0" tests="8" time="0.803" timestamp="2016-04-23T06:22:29">
+      <properties />
+
+      <testcase classname="league.GameSpec" name="test homeTeam not null" time="0.249" />
+
+      <testcase classname="league.GameSpec" name="test awayTeam not null" time="0.102" />
+
+      <testcase classname="league.GameSpec" name="test date valid" time="0.089" />
+
+      <testcase classname="league.GameSpec" name="test date invalid" time="0.082" />
+
+      <testcase classname="league.GameSpec" name="test time not null" time="0.078" />
+
+      <testcase classname="league.GameSpec" name="test location not null" time="0.056" />
+
+      <testcase classname="league.GameSpec" name="test homePoints not negative" time="0.064" />
+
+      <testcase classname="league.GameSpec" name="test awayPoints not negative" time="0.067" />
+
+      <system-out><![CDATA[--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="7" name="GameStatsControllerSpec" package="league" skipped="0" tests="4" time="0.902" timestamp="2016-04-23T06:22:29">
+      <properties />
+
+      <testcase classname="league.GameStatsControllerSpec" name="Test the index action returns the correct model" time="0.572" />
+
+      <testcase classname="league.GameStatsControllerSpec" name="Test the create action returns the correct model" time="0.113" />
+
+      <testcase classname="league.GameStatsControllerSpec" name="Test that the show action returns the correct model" time="0.118" />
+
+      <testcase classname="league.GameStatsControllerSpec" name="Test that the edit action returns the correct model" time="0.079" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="8" name="GameStatsSpec" package="league" skipped="0" tests="3" time="0.291" timestamp="2016-04-23T06:22:30">
+      <properties />
+
+      <testcase classname="league.GameStatsSpec" name="test statistics not negative" time="0.179" />
+
+      <testcase classname="league.GameStatsSpec" name="test shotsAttempted not less than shotsMade" time="0.052" />
+
+      <testcase classname="league.GameStatsSpec" name="test threesAttempted not less than threesMade" time="0.048" />
+
+      <system-out><![CDATA[--Output from test statistics not negative--
+--Output from test shotsAttempted not less than shotsMade--
+--Output from test threesAttempted not less than threesMade--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test statistics not negative--
+--Output from test shotsAttempted not less than shotsMade--
+--Output from test threesAttempted not less than threesMade--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="9" name="LeagueControllerSpec" package="league" skipped="0" tests="4" time="0.682" timestamp="2016-04-23T06:22:31">
+      <properties />
+
+      <testcase classname="league.LeagueControllerSpec" name="Test the index action returns the correct model" time="0.417" />
+
+      <testcase classname="league.LeagueControllerSpec" name="Test the create action returns the correct model" time="0.086" />
+
+      <testcase classname="league.LeagueControllerSpec" name="Test that the show action returns the correct model" time="0.094" />
+
+      <testcase classname="league.LeagueControllerSpec" name="Test that the edit action returns the correct model" time="0.065" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="10" name="LeagueSpec" package="league" skipped="0" tests="2" time="0.243" timestamp="2016-04-23T06:22:31">
+      <properties />
+
+      <testcase classname="league.LeagueSpec" name="test leagueName not null" time="0.193" />
+
+      <testcase classname="league.LeagueSpec" name="test leagueSize greater than 1" time="0.039" />
+
+      <system-out><![CDATA[--Output from test leagueName not null--
+--Output from test leagueSize greater than 1--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test leagueName not null--
+--Output from test leagueSize greater than 1--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="11" name="PersonControllerSpec" package="league" skipped="0" tests="3" time="0.566" timestamp="2016-04-23T06:22:32">
+      <properties />
+
+      <testcase classname="league.PersonControllerSpec" name="Test the index action returns the correct model" time="0.342" />
+
+      <testcase classname="league.PersonControllerSpec" name="Test the create action returns the correct model" time="0.099" />
+
+      <testcase classname="league.PersonControllerSpec" name="Test that the edit action returns the correct model" time="0.111" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="12" name="PersonSpec" package="league" skipped="0" tests="5" time="0.305" timestamp="2016-04-23T06:22:32">
+      <properties />
+
+      <testcase classname="league.PersonSpec" name="test firstName not null" time="0.13" />
+
+      <testcase classname="league.PersonSpec" name="test lastName not null" time="0.039" />
+
+      <testcase classname="league.PersonSpec" name="test role not null" time="0.042" />
+
+      <testcase classname="league.PersonSpec" name="test height not null" time="0.047" />
+
+      <testcase classname="league.PersonSpec" name="test universityAttended not null" time="0.036" />
+
+      <system-out><![CDATA[--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="13" name="SeasonControllerSpec" package="league" skipped="0" tests="4" time="0.617" timestamp="2016-04-23T06:22:32">
+      <properties />
+
+      <testcase classname="league.SeasonControllerSpec" name="Test the index action returns the correct model" time="0.39" />
+
+      <testcase classname="league.SeasonControllerSpec" name="Test the create action returns the correct model" time="0.077" />
+
+      <testcase classname="league.SeasonControllerSpec" name="Test that the show action returns the correct model" time="0.076" />
+
+      <testcase classname="league.SeasonControllerSpec" name="Test that the edit action returns the correct model" time="0.059" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="14" name="SeasonSpec" package="league" skipped="0" tests="4" time="0.3" timestamp="2016-04-23T06:22:33">
+      <properties />
+
+      <testcase classname="league.SeasonSpec" name="test seasonName not null" time="0.162" />
+
+      <testcase classname="league.SeasonSpec" name="test seasonStart date valid" time="0.035" />
+
+      <testcase classname="league.SeasonSpec" name="test seasonStart date invalid" time="0.049" />
+
+      <testcase classname="league.SeasonSpec" name="test seasonEnd date valid and later than seasonStart date" time="0.044" />
+
+      <system-out><![CDATA[--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="15" name="TeamControllerSpec" package="league" skipped="0" tests="4" time="0.648" timestamp="2016-04-23T06:22:33">
+      <properties />
+
+      <testcase classname="league.TeamControllerSpec" name="Test the index action returns the correct model" time="0.344" />
+
+      <testcase classname="league.TeamControllerSpec" name="Test the create action returns the correct model" time="0.107" />
+
+      <testcase classname="league.TeamControllerSpec" name="Test that the show action returns the correct model" time="0.096" />
+
+      <testcase classname="league.TeamControllerSpec" name="Test that the edit action returns the correct model" time="0.09" />
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" id="16" name="TeamSpec" package="league" skipped="0" tests="2" time="0.178" timestamp="2016-04-23T06:22:34">
+      <properties />
+
+      <testcase classname="league.TeamSpec" name="test teamName not null" time="0.133" />
+
+      <testcase classname="league.TeamSpec" name="test location not null" time="0.037" />
+
+      <system-out><![CDATA[--Output from test teamName not null--
+--Output from test location not null--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test teamName not null--
+--Output from test location not null--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

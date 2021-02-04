@@ -1,0 +1,8 @@
+--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--

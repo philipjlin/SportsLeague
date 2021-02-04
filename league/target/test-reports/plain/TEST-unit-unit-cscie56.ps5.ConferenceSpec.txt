@@ -1,0 +1,10 @@
+Testsuite: league.ConferenceSpec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.528 sec
+------------- Standard Output ---------------
+--Output from test name not null--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test name not null--
+------------- ---------------- ---------------
+
+Testcase: test name not null took 0.514 sec

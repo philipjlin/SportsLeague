@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BioProfile/BioProfile.iml" filepath="$PROJECT_DIR$/BioProfile/BioProfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/league/league.iml" filepath="$PROJECT_DIR$/league/league.iml" />
+      <module fileurl="file://$PROJECT_DIR$/league/league-grailsPlugins.iml" filepath="$PROJECT_DIR$/league/league-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>

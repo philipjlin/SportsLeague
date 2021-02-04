@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.SeasonSpec" skipped="0" tests="4" time="0.3" timestamp="2016-04-23T06:22:33">
+  <properties />
+  <testcase classname="league.SeasonSpec" name="test seasonName not null" time="0.162" />
+  <testcase classname="league.SeasonSpec" name="test seasonStart date valid" time="0.035" />
+  <testcase classname="league.SeasonSpec" name="test seasonStart date invalid" time="0.049" />
+  <testcase classname="league.SeasonSpec" name="test seasonEnd date valid and later than seasonStart date" time="0.044" />
+  <system-out><![CDATA[--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--
+]]></system-out>
+  <system-err><![CDATA[--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--
+]]></system-err>
+</testsuite>

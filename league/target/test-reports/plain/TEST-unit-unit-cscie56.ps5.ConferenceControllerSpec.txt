@@ -1,0 +1,19 @@
+Testsuite: league.ConferenceControllerSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.864 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 9.113 sec
+Testcase: Test the create action returns the correct model took 0.356 sec
+Testcase: Test that the show action returns the correct model took 0.16 sec
+Testcase: Test that the edit action returns the correct model took 0.112 sec

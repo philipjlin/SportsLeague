@@ -1,0 +1,19 @@
+Testsuite: league.SeasonSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.3 sec
+------------- Standard Output ---------------
+--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test seasonName not null--
+--Output from test seasonStart date valid--
+--Output from test seasonStart date invalid--
+--Output from test seasonEnd date valid and later than seasonStart date--
+------------- ---------------- ---------------
+
+Testcase: test seasonName not null took 0.162 sec
+Testcase: test seasonStart date valid took 0.035 sec
+Testcase: test seasonStart date invalid took 0.049 sec
+Testcase: test seasonEnd date valid and later than seasonStart date took 0.044 sec

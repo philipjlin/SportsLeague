@@ -1,0 +1,31 @@
+Testsuite: league.GameSpec
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.803 sec
+------------- Standard Output ---------------
+--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test homeTeam not null--
+--Output from test awayTeam not null--
+--Output from test date valid--
+--Output from test date invalid--
+--Output from test time not null--
+--Output from test location not null--
+--Output from test homePoints not negative--
+--Output from test awayPoints not negative--
+------------- ---------------- ---------------
+
+Testcase: test homeTeam not null took 0.249 sec
+Testcase: test awayTeam not null took 0.102 sec
+Testcase: test date valid took 0.089 sec
+Testcase: test date invalid took 0.082 sec
+Testcase: test time not null took 0.078 sec
+Testcase: test location not null took 0.056 sec
+Testcase: test homePoints not negative took 0.064 sec
+Testcase: test awayPoints not negative took 0.067 sec

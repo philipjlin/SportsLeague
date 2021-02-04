@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.LeagueSpec" skipped="0" tests="2" time="0.243" timestamp="2016-04-23T06:22:31">
+  <properties />
+  <testcase classname="league.LeagueSpec" name="test leagueName not null" time="0.193" />
+  <testcase classname="league.LeagueSpec" name="test leagueSize greater than 1" time="0.039" />
+  <system-out><![CDATA[--Output from test leagueName not null--
+--Output from test leagueSize greater than 1--
+]]></system-out>
+  <system-err><![CDATA[--Output from test leagueName not null--
+--Output from test leagueSize greater than 1--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="league.PersonControllerSpec" skipped="0" tests="3" time="0.566" timestamp="2016-04-23T06:22:32">
+  <properties />
+  <testcase classname="league.PersonControllerSpec" name="Test the index action returns the correct model" time="0.342" />
+  <testcase classname="league.PersonControllerSpec" name="Test the create action returns the correct model" time="0.099" />
+  <testcase classname="league.PersonControllerSpec" name="Test that the edit action returns the correct model" time="0.111" />
+  <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-out>
+  <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+Testsuite: league.PersonSpec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.305 sec
+------------- Standard Output ---------------
+--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test firstName not null--
+--Output from test lastName not null--
+--Output from test role not null--
+--Output from test height not null--
+--Output from test universityAttended not null--
+------------- ---------------- ---------------
+
+Testcase: test firstName not null took 0.13 sec
+Testcase: test lastName not null took 0.039 sec
+Testcase: test role not null took 0.042 sec
+Testcase: test height not null took 0.047 sec
+Testcase: test universityAttended not null took 0.036 sec
