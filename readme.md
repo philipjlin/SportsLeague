@@ -32,6 +32,7 @@ Groovy, Grails, Spring Framework
 
 ## Class Overview
 Domain Objects <br>
+
     - Conference - represents a conference in a league containing a number of teams. <br>
 
     - Game - represents a single game played between two teams, with fields to keep track of home and away teams, points scored by each team, and the winner. <br>
@@ -48,6 +49,7 @@ Domain Objects <br>
 
 
 Controllers <br>
+
     - ConferenceController - Controller with CRUD methods for Conference objects. <br>
 
     - GameController - Controller with CRUD methods for Game objects. <br>
