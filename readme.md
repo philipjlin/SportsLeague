@@ -19,7 +19,7 @@ Similarly, individual player stats for each player on a team will be recorded fo
 
 
 ## Technologies
-Groovy, Grails, Spring Framework
+Groovy, Grails, Spring Framework for user authorization/authentication operations
 
 
 ## High Level Components
@@ -33,65 +33,67 @@ Groovy, Grails, Spring Framework
 ## Class Overview
 Domain Objects
 
-    - Conference - represents a conference in a league containing a number of teams. <br>
+    - Conference - represents a conference in a league containing a number of teams.
 
-    - Game - represents a single game played between two teams, with fields to keep track of home and away teams, points scored by each team, and the winner. <br>
+    - Game - represents a single game played between two teams, with fields to keep track of home and away teams, points scored by each team, and the winner.
 
-    - GameStats - represents a stat sheet containing stats for individual players for a specific game they played in. <br>
+    - GameStats - represents a stat sheet containing stats for individual players for a specific game they played in.
 
-    - League - represents the entire league of teams. <br>
+    - League - represents the entire league of teams.
 
-    - Person - represents an individual player on a team in the league. Has a list of GameStats objects that can be displayed in a game log, or as season total or season averages. <br>
+    - Person - represents an individual player on a team in the league. Has a list of GameStats objects that can be displayed in a game log, or as season total or season averages.
 
-    - Season - represents a single season played in the league, with a start date and end date. <br>
+    - Season - represents a single season played in the league, with a start date and end date.
 
-    - Team - represents a single team taking part in a season, with fields to keep track of the team roster, the team schedule against other teams, as well as the team's record in home and away games. <br>
-
-
-Controllers <br>
-
-    - ConferenceController - Controller with CRUD methods for Conference objects. <br>
-
-    - GameController - Controller with CRUD methods for Game objects. <br>
-
-    - GameStatsController - Controller with CRUD methods for GameStats objects. <br>
-
-    - LeagueController - Controller with CRUD methods for League objects. <br>
-
-    - PersonController - Controller with CRUD methods for Person objects, containing methods to return individual stats of a player who has played on a team in a season. <br>
-
-    - SeasonController - Controller with CRUD methods for Season objects, containing methods used to simulate a season and render the results at the end. <br>
-
-    - TeamController - Controller with CRUD methods for Team objects. <br>
+    - Team - represents a single team taking part in a season, with fields to keep track of the team roster, the team schedule against other teams, as well as the team's record in home and away games.
 
 
-Services <br>
+Controllers
 
-    - GameService - Service containing the logic methods used in simulating games between teams. <br>
+    - ConferenceController - Controller with CRUD methods for Conference objects.
 
-    - GameStatsService - Service containing methods used to accumulate game stats for individual players. <br>
+    - GameController - Controller with CRUD methods for Game objects.
 
-    - SeasonService - Service containing the method used to simulate an entire season for a league. <br>
+    - GameStatsController - Controller with CRUD methods for GameStats objects.
 
-Taglibs <br>
+    - LeagueController - Controller with CRUD methods for League objects.
 
-    - GameStatsTagLib - used to help render views of total and average stats of a player by rendering player season stats to a table using the seasonStatsTable template <br>
+    - PersonController - Controller with CRUD methods for Person objects, containing methods to return individual stats of a player who has played on a team in a season.
 
-Plugins <br>
+    - SeasonController - Controller with CRUD methods for Season objects, containing methods used to simulate a season and render the results at the end.
+
+    - TeamController - Controller with CRUD methods for Team objects.
+
+
+Services
+
+    - GameService - Service containing the logic methods used in simulating games between teams.
+
+    - GameStatsService - Service containing methods used to accumulate game stats for individual players.
+
+    - SeasonService - Service containing the method used to simulate an entire season for a league.
+
+Taglibs
+
+    - GameStatsTagLib - used to help render views of total and average stats of a player by rendering player season stats to a table using the seasonStatsTable template.
+
+Plugins
 
     - BioProfile - This plugin further defines users, with usernames and passwords used for authentication and roles used for authorization in the application.
 
 
 ## Views
-Conference <br>
-    - create <br>
-    - edit <br>
-    - index <br>
-    - show <br>
+Conference
 
-Game <br>
-    - create <br>
-    - edit <br>
+    - create
+    - edit
+    - index
+    - show
+
+Game
+
+    - create
+    - edit
     - index <br>
     - show <br>
 
