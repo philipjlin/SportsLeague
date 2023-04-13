@@ -19,7 +19,7 @@ Similarly, individual player stats for each player on a team will be recorded fo
 
 
 ## Technologies
-Grails
+Groovy, Grails, Spring Framework
 
 
 ## High Level Components
