@@ -17,7 +17,9 @@ The results are displayed in a typical standings table found in any sport, and t
 
 Similarly, individual player stats for each player on a team will be recorded for each game, so that the stats for each game can be displayed on a player page. Stats for each player can be cumulated into season total or season average, and based on these stats, a leaderboard can be created with leaders in specific categories including points, assists, rebounds, and steals.
 
-This project was developed using the Grails framework.
+
+## Technologies
+Grails
 
 
 ## High Level Components
