@@ -20,6 +20,7 @@ Similarly, individual player stats for each player on a team will be recorded fo
 
 ## Technologies
 Development in Groovy using the Grails framework.
+
 Spring Framework used for user authorization/authentication operations.
 
 
