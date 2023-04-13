@@ -31,7 +31,7 @@ Groovy, Grails, Spring Framework
 
 
 ## Class Overview
-Domain Objects <br>
+Domain Objects
 
     - Conference - represents a conference in a league containing a number of teams. <br>
 
@@ -66,6 +66,7 @@ Controllers <br>
 
 
 Services <br>
+
     - GameService - Service containing the logic methods used in simulating games between teams. <br>
 
     - GameStatsService - Service containing methods used to accumulate game stats for individual players. <br>
@@ -73,9 +74,11 @@ Services <br>
     - SeasonService - Service containing the method used to simulate an entire season for a league. <br>
 
 Taglibs <br>
+
     - GameStatsTagLib - used to help render views of total and average stats of a player by rendering player season stats to a table using the seasonStatsTable template <br>
 
 Plugins <br>
+
     - BioProfile - This plugin further defines users, with usernames and passwords used for authentication and roles used for authorization in the application.
 
 
