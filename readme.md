@@ -94,42 +94,47 @@ Game
 
     - create
     - edit
-    - index <br>
-    - show <br>
+    - index
+    - show
 
-GameStats <br>
-    - create <br>
-    - edit <br>
-    - index <br>
-    - show <br>
+GameStats
 
-League <br>
-    - leaderboard (template) <br>
-    - create <br>
-    - edit <br>
-    - index <br>
-    - leaderboard <br>
-    - show <br>
+    - create
+    - edit
+    - index
+    - show
 
-Person <br>
-    - gameStatsTable (template) <br>
-    - seasonStatsTable(template) <br>
-    - create <br>
-    - edit <br>
-    - show <br>
-    - index <br>
-    - stats <br>
+League
 
-Season <br>
-    - standingsTable (template) <br>
-    - create <br>
-    - edit <br>
-    - index <br>
-    - show <br>
-    - showStandings <br>
+    - leaderboard (template)
+    - create
+    - edit
+    - index
+    - leaderboard
+    - show
 
-Team <br>
-    - create <br>
-    - edit <br>
-    - index <br>
-    - show <br>
+Person
+
+    - gameStatsTable (template)
+    - seasonStatsTable(template)
+    - create
+    - edit
+    - show
+    - index
+    - stats
+
+Season
+
+    - standingsTable (template)
+    - create
+    - edit
+    - index
+    - show
+    - showStandings
+
+Team
+
+    - create
+    - edit
+    - index
+    - show
