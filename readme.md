@@ -25,118 +25,111 @@ Spring Framework used for user authorization/authentication operations.
 
 
 ## High Level Components
-* Season standings page with display options
-* Individual statistics page with display options
-* Team statistics page with display options
-* Services that are used to run simulations
-* User profile capability for saving and loading saved simulations
+    * Season standings page with display options
+    * Individual statistics page with display options
+    * Team statistics page with display options
+    * Services that are used to run simulations
+    * User profile capability for saving and loading saved simulations
 
 
 ## Class Overview
-Domain Objects
 
-    - Conference - represents a conference in a league containing a number of teams.
+    Domain Objects
+        - Conference - represents a conference in a league containing a number of teams.
+        - Game - represents a single game played between two teams, with fields to keep track of home and away teams, points scored by each team, and the winner.
+        - GameStats - represents a stat sheet with stats for individual players for a specific game they played in.
+        - League - represents the entire league of teams.
+        - Person - represents an individual player on a team in the league. Has a list of GameStats objects that can be displayed in a game log, or as season total or season averages.
+        - Season - represents a single season played in the league, with a start date and end date.
+        - Team - represents a single team taking part in a season, with fields to keep track of the team roster, the team schedule against other teams, as well as the team's record in home and away games.
 
-    - Game - represents a single game played between two teams, with fields to keep track of home and away teams, points scored by each team, and the winner.
+<br>
 
-    - GameStats - represents a stat sheet containing stats for individual players for a specific game they played in.
+    Controllers
+        - ConferenceController - Controller with CRUD methods for Conference objects.
+        - GameController - Controller with CRUD methods for Game objects.
+        - GameStatsController - Controller with CRUD methods for GameStats objects.
+        - LeagueController - Controller with CRUD methods for League objects.
+        - PersonController - Controller with CRUD methods for Person objects, containing methods to return individual stats of a player who has played on a team in a season.
+        - SeasonController - Controller with CRUD methods for Season objects, containing methods used to simulate a season and render the results at the end.
+        - TeamController - Controller with CRUD methods for Team objects.
 
-    - League - represents the entire league of teams.
+<br>
 
-    - Person - represents an individual player on a team in the league. Has a list of GameStats objects that can be displayed in a game log, or as season total or season averages.
+    Services
+        - GameService - Service containing the logic methods used in simulating games between teams.
+        - GameStatsService - Service containing methods used to accumulate game stats for individual players.
+        - SeasonService - Service containing the method used to simulate an entire season for a league.
 
-    - Season - represents a single season played in the league, with a start date and end date.
+<br>
 
-    - Team - represents a single team taking part in a season, with fields to keep track of the team roster, the team schedule against other teams, as well as the team's record in home and away games.
+    Taglibs
+        - GameStatsTagLib - used to help render views of total and average stats of a player by rendering player season stats to a table using the seasonStatsTable template.
 
+<br>
 
-Controllers
-
-    - ConferenceController - Controller with CRUD methods for Conference objects.
-
-    - GameController - Controller with CRUD methods for Game objects.
-
-    - GameStatsController - Controller with CRUD methods for GameStats objects.
-
-    - LeagueController - Controller with CRUD methods for League objects.
-
-    - PersonController - Controller with CRUD methods for Person objects, containing methods to return individual stats of a player who has played on a team in a season.
-
-    - SeasonController - Controller with CRUD methods for Season objects, containing methods used to simulate a season and render the results at the end.
-
-    - TeamController - Controller with CRUD methods for Team objects.
-
-
-Services
-
-    - GameService - Service containing the logic methods used in simulating games between teams.
-
-    - GameStatsService - Service containing methods used to accumulate game stats for individual players.
-
-    - SeasonService - Service containing the method used to simulate an entire season for a league.
-
-Taglibs
-
-    - GameStatsTagLib - used to help render views of total and average stats of a player by rendering player season stats to a table using the seasonStatsTable template.
-
-Plugins
-
-    - BioProfile - This plugin further defines users, with usernames and passwords used for authentication and roles used for authorization in the application.
+    Plugins
+        - BioProfile - This plugin further defines users, with usernames and passwords used for authentication and roles used for authorization in the application.
 
 
 ## Views
-Conference
+    Conference
+        - create
+        - edit
+        - index
+        - show
+        
+<br>
 
-    - create
-    - edit
-    - index
-    - show
+    Game
+        - create
+        - edit
+        - index
+        - show
 
-Game
+<br>
 
-    - create
-    - edit
-    - index
-    - show
+    GameStats
+        - create
+        - edit
+        - index
+        - show
 
-GameStats
+<br>
 
-    - create
-    - edit
-    - index
-    - show
+    League
+        - leaderboard (template)
+        - create
+        - edit
+        - index
+        - leaderboard
+        - show
+        
+<br>
 
-League
+    Person
+        - gameStatsTable (template)
+        - seasonStatsTable(template)
+        - create
+        - edit
+        - show
+        - index
+        - stats
 
-    - leaderboard (template)
-    - create
-    - edit
-    - index
-    - leaderboard
-    - show
+<br>
 
-Person
+    Season
+        - standingsTable (template)
+        - create
+        - edit
+        - index
+        - show
+        - showStandings
 
-    - gameStatsTable (template)
-    - seasonStatsTable(template)
-    - create
-    - edit
-    - show
-    - index
-    - stats
+<br>
 
-Season
-
-    - standingsTable (template)
-    - create
-    - edit
-    - index
-    - show
-    - showStandings
-
-Team
-
-    - create
-    - edit
-    - index
-    - show
+    Team
+        - create
+        - edit
+        - index
+        - show
